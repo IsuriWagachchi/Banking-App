@@ -10,7 +10,7 @@ public class Main {
 
         //DECLARE VARIABLES
         //Scanner scanner = new Scanner(System.in);//get user inputs by ,every scanner cant see the other methods inside
-        double balance = 0;// the balance is been dollar or some ...
+        double balance = 100000;// the balance is been dollar or some ...
         boolean isRunning = true;
         int choice;
 
@@ -44,11 +44,14 @@ public class Main {
             }
         }
 
+        //EXIT MESSAGE
+        System.out.println("***************************************");
+        System.out.println("** Thank You ! Have a Nice Day ! ** ");
+        System.out.println("***************************************");
+
 
         scanner.close();
 
-
-        //System.out.println("Hello world!");
     }
     //showbalace() method creation
 
@@ -62,7 +65,7 @@ public class Main {
     static double deposit(){
         double amount;
         System.out.println("###################################################");
-        System.out.println("Enter an Amount to be Deposited : ");
+        System.out.println("Enter an Amount to be Deposited : > ");
         amount = scanner.nextDouble();
         System.out.println("###################################################");
 
@@ -81,8 +84,10 @@ public class Main {
 
         double amount;
 
+        System.out.println("###################################################");
         System.out.println("Enter amount to be Withdraw: > ");
         amount = scanner.nextDouble();
+        System.out.println("###################################################");
 
         if(amount > balance){
             System.out.println("******************************************");
@@ -105,5 +110,5 @@ public class Main {
 
     }
 
-    //EXIT MESSAGE
+
 }
