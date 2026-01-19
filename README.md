@@ -1,40 +1,24 @@
 # Banking-App
 
-A simple banking application that allows customers to manage their transactions including withdrawals, deposits, and view transaction history with balance.
+A simple banking application that allows customers to manage their transactions including withdrawals, deposits, and view Balance with balance.
 
 ## Features
 
+- **Balance Check**: View current account balance
 - **Deposit**: Add money to your account
 - **Withdraw**: Remove money from your account (with balance validation)
-- **Transaction History**: View all transactions with timestamps and balance after each transaction
-- **Balance Check**: View current account balance
-
-## Files
-
-
-## How to Run
-
-### Interactive Mode
-```bash
-
-```
-
-### Test/Demo Mode
-```bash
-
-```
 
 ## Usage Example
 
 When you run the interactive application:
-1. Enter your name and initial balance
-2. Choose from the menu:
-   - Option 1: Deposit money
-   - Option 2: Withdraw money
-   - Option 3: Show all transactions with balance history
-   - Option 4: Check current balance
-   - Option 5: Exit
 
+1. Choose from the menu:
+2. - Option 1: Check current balance
+   - Option 2: Deposit money
+   - Option 3: Withdraw money
+   - Option 4:Exit
+   
+   
 ## Transaction Display
 
 Each transaction shows:
